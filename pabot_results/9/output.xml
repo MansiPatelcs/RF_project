@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.5 on win32)" generated="20230106 20:42:52.952" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Logintest" source="C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\TestCases\logintest.robot">
+<test id="s1-s1-t1" name="Login test" line="12">
+<kw name="open my browser" library="loginkeywords">
+<arg>${Siteurl1}</arg>
+<arg>${browser}</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${Siteurl1}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230106 20:42:53.772" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
+<status status="PASS" starttime="20230106 20:42:53.770" endtime="20230106 20:43:00.829"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230106 20:43:00.830" endtime="20230106 20:43:00.955"/>
+</kw>
+<status status="PASS" starttime="20230106 20:42:53.767" endtime="20230106 20:43:00.955"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230106 20:43:05.960" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230106 20:43:00.956" endtime="20230106 20:43:05.960"/>
+</kw>
+<kw name="Enter username" library="loginkeywords">
+<arg>${user}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_loginUsername}</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230106 20:43:05.962" level="INFO">Typing text 'Admin' into text field 'name:username'.</msg>
+<status status="PASS" starttime="20230106 20:43:05.961" endtime="20230106 20:43:06.128"/>
+</kw>
+<status status="PASS" starttime="20230106 20:43:05.960" endtime="20230106 20:43:06.128"/>
+</kw>
+<kw name="Enter password" library="loginkeywords">
+<arg>${pwd}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_loginPassword}</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230106 20:43:06.131" level="INFO">Typing text 'admin123' into text field 'name:password'.</msg>
+<status status="PASS" starttime="20230106 20:43:06.130" endtime="20230106 20:43:06.268"/>
+</kw>
+<status status="PASS" starttime="20230106 20:43:06.129" endtime="20230106 20:43:06.269"/>
+</kw>
+<kw name="Click signin" library="loginkeywords">
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>${btn_signIn}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230106 20:43:06.270" level="INFO">Clicking button 'xpath://button[@type='submit']'.</msg>
+<status status="PASS" starttime="20230106 20:43:06.269" endtime="20230106 20:43:06.356"/>
+</kw>
+<status status="PASS" starttime="20230106 20:43:06.269" endtime="20230106 20:43:06.357"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230106 20:43:11.360" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230106 20:43:06.357" endtime="20230106 20:43:11.360"/>
+</kw>
+<kw name="Verify Successfull login" library="loginkeywords">
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>OrangeHRM</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<msg timestamp="20230106 20:43:11.372" level="INFO">Page title is 'OrangeHRM'.</msg>
+<status status="PASS" starttime="20230106 20:43:11.362" endtime="20230106 20:43:11.373"/>
+</kw>
+<status status="PASS" starttime="20230106 20:43:11.361" endtime="20230106 20:43:11.373"/>
+</kw>
+<kw name="close browser" library="loginkeywords">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20230106 20:43:11.375" endtime="20230106 20:43:17.597"/>
+</kw>
+<status status="PASS" starttime="20230106 20:43:11.374" endtime="20230106 20:43:17.600"/>
+</kw>
+<status status="PASS" starttime="20230106 20:42:53.765" endtime="20230106 20:43:17.602"/>
+</test>
+<status status="PASS" starttime="20230106 20:42:53.027" endtime="20230106 20:43:17.604"/>
+</suite>
+<status status="PASS" starttime="20230106 20:42:52.969" endtime="20230106 20:43:17.648"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Logintest">Suites.Logintest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,24 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Dropdown                                                               
+==============================================================================
+Handlings Dropdown and Lists                                            
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\TestCases\dropdown.robot:9
+    T:  Handlings Dropdown and Lists    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\TestCases\dropdown.robot:13
+      Select From List By Label    
+______________________________________________________________________________
+| FAIL |
+Keyword 'SeleniumLibrary.Select From List By Label' expected at least 1 argument, got 0.
+------------------------------------------------------------------------------
+Suites.Dropdown                                                       | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\pabot_results\5\output.xml

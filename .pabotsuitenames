@@ -1,0 +1,28 @@
+datasources:5b8e5cab01517f07b315237a7646a37c82989109
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:21c847c8ebe0e88b40af7aac09de99e49516708c
+--suite Suites.Alerts
+--suite Suites.Capturess
+--suite Suites.Closeall
+--suite Suites.DBtesting
+--suite Suites.DDT1
+--suite Suites.Dropdown
+--suite Suites.Getalllinks
+--suite Suites.Implicitewait
+--suite Suites.Inputbox
+--suite Suites.Logintest
+--suite Suites.Mouseoperation
+--suite Suites.Navigationalkeywords
+--suite Suites.Radiobuttons
+--suite Suites.Scrollingpage
+--suite Suites.Setup Teardown
+--suite Suites.Speedtest
+--suite Suites.Switchtomutliplebrowsers
+--suite Suites.TC1
+--suite Suites.Tabbedwindows
+--suite Suites.Tabledemo
+--suite Suites.Tagging
+--suite Suites.Testframes
+--suite Suites.Timeouttest
+--suite Suites.Userkeywords

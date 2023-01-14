@@ -1,0 +1,39 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.DBtesting                                                              
+==============================================================================
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\TestCases\DBtesting.robot:5
+      Connect To Database    pymysql    ${DBName}    ${DBUser}    ${DBPass}    ${DBHost}    ${DBPort}
+      |  ${DBName} = mydb (str)
+      |  ${DBUser} = root (str)
+      |  ${DBPass} = Password (str)
+      |  ${DBHost} = localhost (str)
+      |  ${DBPort} = 3306 (str)
+______________________________________________________________________________
+Inserting Data in person Table                                        | FAIL |
+Parent suite setup failed:
+'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+------------------------------------------------------------------------------
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\TestCases\DBtesting.robot:6
+      Disconnect From Database    
+______________________________________________________________________________
+Suites.DBtesting                                                      | FAIL |
+Suite setup failed:
+'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+Also suite teardown failed:
+AttributeError: 'NoneType' object has no attribute 'close'
+
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\pabot_results\3\output.xml

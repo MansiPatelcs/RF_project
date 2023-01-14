@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.5 on win32)" generated="20230106 20:42:09.095" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="DBtesting" source="C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\TestCases\DBtesting.robot">
+<kw name="Connect To Database" library="DatabaseLibrary" type="SETUP">
+<arg>pymysql</arg>
+<arg>${DBName}</arg>
+<arg>${DBUser}</arg>
+<arg>${DBPass}</arg>
+<arg>${DBHost}</arg>
+<arg>${DBPort}</arg>
+<doc>Loads the DB API 2.0 module given `dbapiModuleName` then uses it to
+connect to the database using `dbName`, `dbUsername`, and `dbPassword`.</doc>
+<msg timestamp="20230106 20:42:09.227" level="INFO">Connecting using : pymysql.connect(db=mydb, user=root, passwd=Password, host=localhost, port=3306, charset=None) </msg>
+<msg timestamp="20230106 20:42:09.265" level="FAIL">'cryptography' package is required for sha256_password or caching_sha2_password auth methods</msg>
+<status status="FAIL" starttime="20230106 20:42:09.187" endtime="20230106 20:42:09.317"/>
+</kw>
+<test id="s1-s1-t1" name="Inserting Data in person Table" line="21">
+<status status="FAIL" starttime="20230106 20:42:09.319" endtime="20230106 20:42:09.322">Parent suite setup failed:
+'cryptography' package is required for sha256_password or caching_sha2_password auth methods</status>
+</test>
+<kw name="Disconnect From Database" library="DatabaseLibrary" type="TEARDOWN">
+<doc>Disconnects from the database.</doc>
+<msg timestamp="20230106 20:42:09.325" level="INFO">Executing : Disconnect From Database</msg>
+<msg timestamp="20230106 20:42:09.326" level="FAIL">AttributeError: 'NoneType' object has no attribute 'close'</msg>
+<status status="FAIL" starttime="20230106 20:42:09.324" endtime="20230106 20:42:09.326">AttributeError: 'NoneType' object has no attribute 'close'</status>
+</kw>
+<status status="FAIL" starttime="20230106 20:42:09.154" endtime="20230106 20:42:09.327">Suite setup failed:
+'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+Also suite teardown failed:
+AttributeError: 'NoneType' object has no attribute 'close'</status>
+</suite>
+<status status="FAIL" starttime="20230106 20:42:09.114" endtime="20230106 20:42:09.330"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="DBtesting">Suites.DBtesting</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

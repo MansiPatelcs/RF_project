@@ -1,0 +1,51 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.TC1                                                                    
+==============================================================================
+LoginTest                                                               
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\TestCases\TC1.robot:9
+    T:  LoginTest    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\TestCases\TC1.robot:12
+      loginToApplication    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\TestCases\TC1.robot:17
+      Wait Until Element Is Visible    xpath://*[@id="app"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input
+______________________________________________________________________________
+| FAIL |
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00C4F243]
+	(No symbol) [0x00BD7FD1]
+	(No symbol) [0x00ACD04D]
+	(No symbol) [0x00AB2D7A]
+	(No symbol) [0x00B1BE7B]
+	(No symbol) [0x00B2C196]
+	(No symbol) [0x00B18386]
+	(No symbol) [0x00AF163C]
+	(No symbol) [0x00AF269D]
+	GetHandleVerifier [0x00EE9A22+2655074]
+	GetHandleVerifier [0x00EDCA24+2601828]
+	GetHandleVerifier [0x00CF8C0A+619850]
+	GetHandleVerifier [0x00CF7830+614768]
+	(No symbol) [0x00BE05FC]
+	(No symbol) [0x00BE5968]
+	(No symbol) [0x00BE5A55]
+	(No symbol) [0x00BF051B]
+	BaseThreadInitThunk [0x7708FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A6E+238]
+------------------------------------------------------------------------------
+Suites.TC1                                                            | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\pabot_results\17\output.xml

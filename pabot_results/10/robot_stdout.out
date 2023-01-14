@@ -1,0 +1,24 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Mouseoperation                                                         
+==============================================================================
+MouseActions                                                            
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\TestCases\mouseoperation.robot:5
+    T:  MouseActions    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\TestCases\mouseoperation.robot:22
+      Drag And Drop    id:sourseele    id:targetele
+______________________________________________________________________________
+| FAIL |
+Element with locator 'id:sourseele' not found.
+------------------------------------------------------------------------------
+Suites.Mouseoperation                                                 | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\pabot_results\10\output.xml

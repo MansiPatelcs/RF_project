@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.5 on win32)" generated="20230106 20:44:39.004" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Testframes" source="C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\TestCases\testframes.robot">
+<test id="s1-s1-t1" name="TestingFrames" line="5">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://seleniumhq.github.io/selenium/docs/api/java/index</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230106 20:44:39.487" level="INFO">Opening browser 'chrome' to base url 'https://seleniumhq.github.io/selenium/docs/api/java/index'.</msg>
+<msg timestamp="20230106 20:44:43.687" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00C4F243]
+	(No symbol) [0x00BD7FD1]
+	(No symbol) [0x00ACD04D]
+	(No symbol) [0x00AB2D7A]
+	(No symbol) [0x00B1BE7B]
+	(No symbol) [0x00B2C196]
+	(No symbol) [0x00B18386]
+	(No symbol) [0x00AF163C]
+	(No symbol) [0x00AF269D]
+	GetHandleVerifier [0x00EE9A22+2655074]
+	GetHandleVerifier [0x00EDCA24+2601828]
+	GetHandleVerifier [0x00CF8C0A+619850]
+	GetHandleVerifier [0x00CF7830+614768]
+	(No symbol) [0x00BE05FC]
+	(No symbol) [0x00BE5968]
+	(No symbol) [0x00BE5A55]
+	(No symbol) [0x00BF051B]
+	BaseThreadInitThunk [0x7708FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A6E+238]
+</msg>
+<msg timestamp="20230106 20:44:43.688" level="FAIL">WebDriverException: Message: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=108.0.5359.125)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00C4F243]
+	(No symbol) [0x00BD7FD1]
+	(No symbol) [0x00ACD04D]
+	(No symbol) [0x00AC0A79]
+	(No symbol) [0x00AC06F1]
+	(No symbol) [0x00ABFB0B]
+	(No symbol) [0x00ABFA5C]
+	(No symbol) [0x00ABF356]
+	(No symbol) [0x00AD30DD]
+	(No symbol) [0x00B2CDCE]
+	(No symbol) [0x00B18386]
+	(No symbol) [0x00AF163C]
+	(No symbol) [0x00AF269D]
+	GetHandleVerifier [0x00EE9A22+2655074]
+	GetHandleVerifier [0x00EDCA24+2601828]
+	GetHandleVerifier [0x00CF8C0A+619850]
+	GetHandleVerifier [0x00CF7830+614768]
+	(No symbol) [0x00BE05FC]
+	(No symbol) [0x00BE5968]
+	(No symbol) [0x00BE5A55]
+	(No symbol) [0x00BF051B]
+	BaseThreadInitThunk [0x7708FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A6E+238]
+</msg>
+<status status="FAIL" starttime="20230106 20:44:39.486" endtime="20230106 20:44:43.692"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>xpath:/html/body/header/nav/div[1]/div[2]/ul[1]/li[1]/a</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:43.692" endtime="20230106 20:44:43.693"/>
+</kw>
+<kw name="Select Frame" library="SeleniumLibrary">
+<arg>packageListFrame</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:43.693" endtime="20230106 20:44:43.694"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>org.openqa.selenium</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:43.694" endtime="20230106 20:44:43.695"/>
+</kw>
+<kw name="Unselect Frame" library="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:43.695" endtime="20230106 20:44:43.696"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:43.696" endtime="20230106 20:44:43.697"/>
+</kw>
+<kw name="Select Frame" library="SeleniumLibrary">
+<arg>packageFrame</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:43.697" endtime="20230106 20:44:43.697"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>WebDriver</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:43.698" endtime="20230106 20:44:43.698"/>
+</kw>
+<kw name="Unselect Frame" library="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:43.698" endtime="20230106 20:44:43.699"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:43.699" endtime="20230106 20:44:43.699"/>
+</kw>
+<kw name="Select Frame" library="SeleniumLibrary">
+<arg>classFrame</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:43.700" endtime="20230106 20:44:43.700"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>Help</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:43.700" endtime="20230106 20:44:43.701"/>
+</kw>
+<kw name="Unselect Frame" library="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:43.701" endtime="20230106 20:44:43.702"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:43.702" endtime="20230106 20:44:43.702"/>
+</kw>
+<status status="FAIL" starttime="20230106 20:44:39.486" endtime="20230106 20:44:43.703">WebDriverException: Message: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=108.0.5359.125)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00C4F243]
+	(No symbol) [0x00BD7FD1]
+	(No symbol) [0x00ACD04D]
+	(No symbol) [0x00AC0A79]
+	(No symbol) [0x00AC06F1]
+	(No symbol) [0x00ABFB0B]
+	(No symbol) [0x00ABFA5C]
+	(No symbol) [0x00ABF356]
+	(No symbol) [0x00AD30DD]
+	(No symbol) [0x00B2CDCE]
+	(No symbol) [0x00B18386]
+	(No symbol) [0x00AF163C]
+	(No symbol) [0x00AF269D]
+	GetHandleVerifier [0x00EE9A22+2655074]
+	GetHandleVerifier [0x00EDCA24+2601828]
+	GetHandleVerifier [0x00CF8C0A+619850]
+	GetHandleVerifier [0x00CF7830+614768]
+	(No symbol) [0x00BE05FC]
+	(No symbol) [0x00BE5968]
+	(No symbol) [0x00BE5A55]
+	(No symbol) [0x00BF051B]
+	BaseThreadInitThunk [0x7708FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A6E+238]
+</status>
+</test>
+<status status="FAIL" starttime="20230106 20:44:39.058" endtime="20230106 20:44:43.705"/>
+</suite>
+<status status="FAIL" starttime="20230106 20:44:39.022" endtime="20230106 20:44:43.707"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Testframes">Suites.Testframes</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230106 20:44:43.687" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00C4F243]
+	(No symbol) [0x00BD7FD1]
+	(No symbol) [0x00ACD04D]
+	(No symbol) [0x00AB2D7A]
+	(No symbol) [0x00B1BE7B]
+	(No symbol) [0x00B2C196]
+	(No symbol) [0x00B18386]
+	(No symbol) [0x00AF163C]
+	(No symbol) [0x00AF269D]
+	GetHandleVerifier [0x00EE9A22+2655074]
+	GetHandleVerifier [0x00EDCA24+2601828]
+	GetHandleVerifier [0x00CF8C0A+619850]
+	GetHandleVerifier [0x00CF7830+614768]
+	(No symbol) [0x00BE05FC]
+	(No symbol) [0x00BE5968]
+	(No symbol) [0x00BE5A55]
+	(No symbol) [0x00BF051B]
+	BaseThreadInitThunk [0x7708FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A6E+238]
+</msg>
+</errors>
+</robot>

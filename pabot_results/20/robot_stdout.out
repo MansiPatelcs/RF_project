@@ -1,0 +1,28 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Tagging                                                                
+==============================================================================
+TC1 User RegistrationTest                                             This is user reg test
+user registration test is over
+| PASS |
+------------------------------------------------------------------------------
+TC2 Loigntest                                                         This is login test
+Login test is over
+| PASS |
+------------------------------------------------------------------------------
+TC3 Chnage user settings                                              This is change user setting test
+Change user setting test is over
+| PASS |
+------------------------------------------------------------------------------
+TC4 Logout Test                                                       This is logout test
+logout test is over
+| PASS |
+------------------------------------------------------------------------------
+Suites.Tagging                                                        | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+Output:  C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\pabot_results\20\output.xml

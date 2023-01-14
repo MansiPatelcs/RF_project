@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.5 on win32)" generated="20230106 20:41:49.269" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Capturess" source="C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\TestCases\Capturess.robot">
+<test id="s1-s1-t1" name="LoginTC" line="5">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://opensource-demo.orangehrmlive.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230106 20:41:49.676" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com/'.</msg>
+<status status="PASS" starttime="20230106 20:41:49.674" endtime="20230106 20:42:00.491"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230106 20:42:00.492" endtime="20230106 20:42:00.641"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230106 20:42:05.653" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230106 20:42:00.642" endtime="20230106 20:42:05.653"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:username</arg>
+<arg>Admin</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230106 20:42:05.654" level="INFO">Typing text 'Admin' into text field 'name:username'.</msg>
+<status status="PASS" starttime="20230106 20:42:05.653" endtime="20230106 20:42:05.789"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>admin123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230106 20:42:05.790" level="INFO">Typing text 'admin123' into text field 'name:password'.</msg>
+<status status="PASS" starttime="20230106 20:42:05.789" endtime="20230106 20:42:05.913"/>
+</kw>
+<kw name="Capture Element Screenshot" library="SeleniumLibrary">
+<arg>xpath://*[@id="app"]/div[1]/div/div[1]/div/div[1]/img</arg>
+<arg>C:/Users/Mansi Patel/PycharmProjects/pythonProject1/pythonProject/RF_project/logo.png</arg>
+<doc>Captures a screenshot from the element identified by ``locator`` and embeds it into log file.</doc>
+<msg timestamp="20230106 20:42:06.020" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../../logo.png"&gt;&lt;img src="../../logo.png" width="400px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230106 20:42:05.913" endtime="20230106 20:42:06.020"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<arg>C:/Users/Mansi Patel/PycharmProjects/pythonProject1/pythonProject/RF_project/LoginTC.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20230106 20:42:06.179" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../../LoginTC.png"&gt;&lt;img src="../../LoginTC.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230106 20:42:06.020" endtime="20230106 20:42:06.179"/>
+</kw>
+<status status="PASS" starttime="20230106 20:41:49.674" endtime="20230106 20:42:06.179"/>
+</test>
+<status status="PASS" starttime="20230106 20:41:49.325" endtime="20230106 20:42:06.180"/>
+</suite>
+<status status="PASS" starttime="20230106 20:41:49.285" endtime="20230106 20:42:06.183"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Capturess">Suites.Capturess</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

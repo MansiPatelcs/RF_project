@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.5 on win32)" generated="20230106 20:44:00.493" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Speedtest" source="C:\Users\Mansi Patel\PycharmProjects\pythonProject1\pythonProject\RF_project\TestCases\speedtest.robot">
+<test id="s1-s1-t1" name="RegTest" line="5">
+<kw name="Get Selenium Speed" library="SeleniumLibrary">
+<var>${speed}</var>
+<doc>Gets the delay that is waited after each Selenium command.</doc>
+<msg timestamp="20230106 20:44:00.906" level="INFO">${speed} = 0 seconds</msg>
+<status status="PASS" starttime="20230106 20:44:00.906" endtime="20230106 20:44:00.906"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${speed}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230106 20:44:00.906" endtime="20230106 20:44:00.907"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://demowebshop.tricentis.com/register</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230106 20:44:00.908" level="INFO">Opening browser 'chrome' to base url 'http://demowebshop.tricentis.com/register'.</msg>
+<status status="PASS" starttime="20230106 20:44:00.908" endtime="20230106 20:44:06.401"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<msg timestamp="20230106 20:44:06.425" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00C4F243]
+	(No symbol) [0x00BD7FD1]
+	(No symbol) [0x00ACD04D]
+	(No symbol) [0x00AB2D7A]
+	(No symbol) [0x00B1BE7B]
+	(No symbol) [0x00B2C196]
+	(No symbol) [0x00B18386]
+	(No symbol) [0x00AF163C]
+	(No symbol) [0x00AF269D]
+	GetHandleVerifier [0x00EE9A22+2655074]
+	GetHandleVerifier [0x00EDCA24+2601828]
+	GetHandleVerifier [0x00CF8C0A+619850]
+	GetHandleVerifier [0x00CF7830+614768]
+	(No symbol) [0x00BE05FC]
+	(No symbol) [0x00BE5968]
+	(No symbol) [0x00BE5A55]
+	(No symbol) [0x00BF051B]
+	BaseThreadInitThunk [0x7708FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A6E+238]
+</msg>
+<msg timestamp="20230106 20:44:06.426" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00C4F243]
+	(No symbol) [0x00BD7FD1]
+	(No symbol) [0x00ACD04D]
+	(No symbol) [0x00AB2D7A]
+	(No symbol) [0x00B1BE7B]
+	(No symbol) [0x00B2C196]
+	(No symbol) [0x00B18386]
+	(No symbol) [0x00AF163C]
+	(No symbol) [0x00AF269D]
+	GetHandleVerifier [0x00EE9A22+2655074]
+	GetHandleVerifier [0x00EDCA24+2601828]
+	GetHandleVerifier [0x00CF8C0A+619850]
+	GetHandleVerifier [0x00CF7830+614768]
+	(No symbol) [0x00BE05FC]
+	(No symbol) [0x00BE5968]
+	(No symbol) [0x00BE5A55]
+	(No symbol) [0x00BF051B]
+	BaseThreadInitThunk [0x7708FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A6E+238]
+</msg>
+<status status="FAIL" starttime="20230106 20:44:06.401" endtime="20230106 20:44:06.448"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>1 second</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:06.448" endtime="20230106 20:44:06.449"/>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<arg>Gender</arg>
+<arg>M</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:06.449" endtime="20230106 20:44:06.450"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:FirstName</arg>
+<arg>abc</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:06.450" endtime="20230106 20:44:06.451"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:LastName</arg>
+<arg>xyz</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:06.451" endtime="20230106 20:44:06.452"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:Email</arg>
+<arg>abc@gmial.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:06.452" endtime="20230106 20:44:06.453"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:Password</arg>
+<arg>abc123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:06.453" endtime="20230106 20:44:06.453"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:ConfirmPassword</arg>
+<arg>abc123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:06.454" endtime="20230106 20:44:06.454"/>
+</kw>
+<kw name="Get Selenium Speed" library="SeleniumLibrary">
+<var>${speed}</var>
+<doc>Gets the delay that is waited after each Selenium command.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:06.454" endtime="20230106 20:44:06.455"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${speed}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230106 20:44:06.455" endtime="20230106 20:44:06.456"/>
+</kw>
+<status status="FAIL" starttime="20230106 20:44:00.905" endtime="20230106 20:44:06.456">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00C4F243]
+	(No symbol) [0x00BD7FD1]
+	(No symbol) [0x00ACD04D]
+	(No symbol) [0x00AB2D7A]
+	(No symbol) [0x00B1BE7B]
+	(No symbol) [0x00B2C196]
+	(No symbol) [0x00B18386]
+	(No symbol) [0x00AF163C]
+	(No symbol) [0x00AF269D]
+	GetHandleVerifier [0x00EE9A22+2655074]
+	GetHandleVerifier [0x00EDCA24+2601828]
+	GetHandleVerifier [0x00CF8C0A+619850]
+	GetHandleVerifier [0x00CF7830+614768]
+	(No symbol) [0x00BE05FC]
+	(No symbol) [0x00BE5968]
+	(No symbol) [0x00BE5A55]
+	(No symbol) [0x00BF051B]
+	BaseThreadInitThunk [0x7708FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A6E+238]
+</status>
+</test>
+<status status="FAIL" starttime="20230106 20:44:00.545" endtime="20230106 20:44:06.458"/>
+</suite>
+<status status="FAIL" starttime="20230106 20:44:00.509" endtime="20230106 20:44:06.462"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Speedtest">Suites.Speedtest</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230106 20:44:06.425" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00C4F243]
+	(No symbol) [0x00BD7FD1]
+	(No symbol) [0x00ACD04D]
+	(No symbol) [0x00AB2D7A]
+	(No symbol) [0x00B1BE7B]
+	(No symbol) [0x00B2C196]
+	(No symbol) [0x00B18386]
+	(No symbol) [0x00AF163C]
+	(No symbol) [0x00AF269D]
+	GetHandleVerifier [0x00EE9A22+2655074]
+	GetHandleVerifier [0x00EDCA24+2601828]
+	GetHandleVerifier [0x00CF8C0A+619850]
+	GetHandleVerifier [0x00CF7830+614768]
+	(No symbol) [0x00BE05FC]
+	(No symbol) [0x00BE5968]
+	(No symbol) [0x00BE5A55]
+	(No symbol) [0x00BF051B]
+	BaseThreadInitThunk [0x7708FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77CB7A6E+238]
+</msg>
+</errors>
+</robot>
